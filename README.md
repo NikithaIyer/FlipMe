@@ -16,5 +16,6 @@ Code @ codepen.io : http://codepen.io/brunoscopelliti/pen/uvldw
 
 4.code @ jsfiddle: http://jsfiddle.net/drublic/epHjY/
 
-General tutorial for HTML CSS and js
+
+General tutorial for HTML CSS and JavaScript
 http://www.codecademy.com/courses/html-javascript-css?curriculum_id=4f873b9ac02c44000300000d
