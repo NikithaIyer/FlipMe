@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/bugs.css">
 </head>
 
 
@@ -25,7 +25,8 @@
         </div>
 
         <div class="back">
-            <div class="back-title">Crash on submit w/o image and description text</div>
+            <!--<div class="back-title">Crash on submit w/o image and description text</div>-->
+            <img class="image" src="../Images/Crash_on_empty_text_and_image.jpg"/>
         </div>
     </div>
 </div>
@@ -36,7 +37,8 @@
         </div>
 
         <div class="back">
-            <div class="back-title">Description field not scrollable on View Report</div>
+            <!--<div class="back-title">Description field not scrollable on View Report</div>-->
+            <img class="image" src="../Images/Description_not_scrollable.jpg"/>
         </div>
     </div>
 </div>
@@ -58,7 +60,8 @@
         </div>
 
         <div class="back">
-            <div class="back-title">Image size fixed (does not scale to screen size)</div>
+            <!--<div class="back-title">Image size fixed (does not scale to screen size)</div>-->
+            <img class="image" src="../Images/Screen_Size.jpg"/>
         </div>
     </div>
 </div>
@@ -69,7 +72,8 @@
         </div>
 
         <div class="back">
-            <div class="back-title">Tiny image on capture</div>
+            <!--<div class="back-title">Tiny image on capture</div>-->
+            <img class="image" src="../Images/Tiny_Image.jpg"/>
         </div>
     </div>
 </div>
@@ -80,7 +84,7 @@
         </div>
 
         <div class="back">
-            <div class="back-title">Can't select image from Gallery</div>
+            <div class="back-title">Can't select image from Gallery!</div>
         </div>
     </div>
 </div>
@@ -91,7 +95,7 @@
         </div>
 
         <div class="back">
-            <div class="back-title">My Reports- Empty by default- No message</div>
+            <div class="back-title">My Reports- Empty by default- No message to alert the user</div>
         </div>
     </div>
 </div>
@@ -107,6 +111,54 @@
     </div>
 </div>
 
+<div class="flip-container" onclick="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <span class="name">10</span>
+        </div>
+
+        <div class="back">
+            <div class="back-title">Takes too long to submit a report (No Loader)</div>
+        </div>
+    </div>
+</div>
+
+<div class="flip-container" onclick="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <span class="name">11</span>
+        </div>
+
+        <div class="back">
+            <div class="back-title">Previous image gets repeated for new report, if image not clicked</div>
+        </div>
+    </div>
+</div>
+
+<div class="flip-container" onclick="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <span class="name">12</span>
+        </div>
+
+        <div class="back">
+            <!--<div class="back-title">Can't completely see the image clicked in landscape mode</div>-->
+            <img class="image" src="../Images/landscape_mode_image.jpg"/>
+        </div>
+    </div>
+</div>
+
+<div class="flip-container" onclick="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <span class="name">13</span>
+        </div>
+
+        <div class="back">
+            <div class="back-title">Captured image disappears from landscape to portrait mode</div>
+        </div>
+    </div>
+</div>
 
 
 </body>
